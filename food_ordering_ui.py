@@ -47,6 +47,11 @@ def show_main_menu():
       functions.manage()
     elif user_menu_choice in 'Uu':
         print('Do you want to show most sales items')
+        desire = input('Press "y" for YES and "n" for NO\n')
+        if desire in "Yy":
+          continue
+        elif desire in "Nn":
+          break
     else:
       print('invalid choice')
 
