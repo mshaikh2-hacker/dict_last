@@ -69,7 +69,8 @@ def make_order():
   return quantity,functions.get_item_information(f'{item_code}')[0],functions.get_item_information(f'{item_code}')[1]
 
 def close_order():
-  print('Previous order was removed, select N for new order')
+  print('Previous order was removed' )
+  print('select N for new order')
 
 if __name__ == '__main__':
     drinks = []
