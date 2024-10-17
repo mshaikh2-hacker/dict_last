@@ -12,6 +12,7 @@ def show_main_menu():
     print('Insert D to check if your desired order is available')
     print('Insert M for manager mode')
     print('Insert Q to quit')
+    print('Insert U for user menu')
     user_menu_choice = input('Your choice: ')
     if user_menu_choice in 'Qq':
       break
