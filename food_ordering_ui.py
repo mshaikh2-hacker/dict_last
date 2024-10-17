@@ -12,7 +12,7 @@ def show_main_menu():
     print('Insert D to check if your desired order is available')
     print('Insert M for manager mode')
     print('Insert Q to quit')
-    print('Insert U for user menu')
+    print('Insert U for most sales items')
     user_menu_choice = input('Your choice: ')
     if user_menu_choice in 'Qq':
       break
@@ -45,6 +45,8 @@ def show_main_menu():
       functions.customer_request()
     elif user_menu_choice in 'Mm':
       functions.manage()
+    elif user_menu_choice in 'Uu':
+        print('Do you want to show most sales items')
     else:
       print('invalid choice')
 
